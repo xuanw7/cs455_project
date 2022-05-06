@@ -7,8 +7,7 @@
 1. Download code off of GitHub or extract files from zipped folder
 2. Open code in code editor, such as Visual Studio Code
 3. Press the Run button
-![alt text](Downloads/hi.PNG)
-5. Use the a, w, s, d keys to control the camera position 
+4. Use the a, w, s, d keys to control the camera position 
 
 ## Results
 #### YouTube Video: https://youtu.be/F1ghzpNlMuI
