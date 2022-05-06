@@ -12,11 +12,11 @@ cube_vertices: normalized positions of vertices in 3D space, shape = 8 * 3
 cube_scale: used for denormalized
 '''
 
-# cube_vertices = np.array([[-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1],
-#                           [-1, -1,  1], [1, -1,  1], [1, 1,  1], [-1, 1,  1]], dtype=float)
+cube_vertices = np.array([[-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1],
+                           [-1, -1,  1], [1, -1,  1], [1, 1,  1], [-1, 1,  1]], dtype=float)
 
-cube_vertices = np.array([[-1, -1, -0.5], [1, -0.6, -1.2], [1, 1, -0.5], [-1, 1, -1.5],
-                          [-0.5, -1.5,  1], [0, -1.8,  1], [1.5, 1.5,  1], [-1.5, 0.5,  1]], dtype=float)
+#cube_vertices = np.array([[-1, -1, -0.5], [1, -0.6, -1.2], [0.5, 1, -0.5], [-1, 1, -1.5],
+                          #[-0.5, -1.2,  1], [0, -1.8,  1], [1.5, 1.5,  1], [-1.5, 0.5,  1]], dtype=float)
 
                           
 cube_vertices_moved = cube_vertices.copy()
@@ -233,26 +233,26 @@ while True:
     key_input = pygame.key.get_pressed()
     
     if key_input[pygame.K_w]:
-        C += np.array([0.0,0.0,  0.1])
-    if key_input[pygame.K_s]:
-        C += np.array([0.0,0.0, -0.1])
+        C += np.array([0.0, 0.1, 0.0])    # up
+    if key_input[pygame.K_s]: 
+        C += np.array([0.0, -0.1,  0.0])  # down
     if key_input[pygame.K_a]:
-        C += np.array([-0.1, 0.0,  0.0])
+        C += np.array([0.1, 0.0,  0.0])   # left
     if key_input[pygame.K_d]:
-        C += np.array([0.1, 0.0,   0.0])
+        C += np.array([-0.1, 0.0,  0.0])  # right
     if key_input[pygame.K_q]:
-        C += np.array([0.0, -0.1,  0.0])
+        C += np.array([0.0, 0.0,  0.1])   # zoom in
     if key_input[pygame.K_e]:
-        C += np.array([0.0, 0.1, 0.0])
+        C += np.array([0.0, 0.0, -0.1])   # zoom out
 
     if key_input[pygame.K_UP]:
-        p += np.array([0.0,  -2,  0.0])
+        p += np.array([0.0,  2,  0.0])   # up
     if key_input[pygame.K_DOWN]:
-        p += np.array([0.0,  2,  0.0])
+        p += np.array([0.0,  -2,  0.0])  # down
     if key_input[pygame.K_LEFT]:
-        p += np.array([-2, 0.0,  0.0])
+        p += np.array([2, 0.0,  0.0])    # left
     if key_input[pygame.K_RIGHT]:
-        p += np.array([2, 0.0,   0.0])
+        p += np.array([-2, 0.0,   0.0])  # right
 
 
 
