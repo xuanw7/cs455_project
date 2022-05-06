@@ -5,7 +5,7 @@
 
 ## How to Run the Project
 1. Download code off of GitHub or extract files from zipped folder
-2. Open code in a code editor, such as Visual Studio Code
+2. Open code in a code editor, such as Visual Studio Code. All of the project is in our main.py file.
 3. Press the Run button. A separate window should open up with the visualization showing.
 4. Use the a, w, s, d keys to control the camera position 
 
