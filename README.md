@@ -4,8 +4,7 @@
 #### For our final project, our group created a 3D rendering game/cartoon using Pygame and the principles of projection, rotation, and perspective matrices. The rendering results include a cube or other 3D shape that rotates, changes colors based on its position, reflects lighting, and can morph into different shapes. Additionally, the user is able to change the position and angle of the camera as the cube rotates using the keyboard. 
 
 ## Installing Pygame
-#### In order to run our project, it is required to have Pygame installed. 
-https://www.pygame.org/news
+#### In order to run our project, it is required to have Pygame installed: https://www.pygame.org/news
 pip install pygame
 
 ## How to Run the Project
