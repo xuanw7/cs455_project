@@ -5,7 +5,7 @@
 
 ## Installing Pygame
 #### In order to run our project, it is required to have Pygame installed: https://www.pygame.org/news
-pip install pygame
+'''pip install pygame'''
 
 ## How to Run the Project
 1. Download code off of GitHub or extract files from zipped folder
