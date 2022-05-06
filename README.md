@@ -12,7 +12,7 @@
 ## How to Adjust the 3D Shape
 #### The default shape for our rendering is a cube, but the user is able to adjust the shape they want based on the values in the array cube_vertices (lines 15-16 in our code), that are the normalized positions of the vertices of the shape in the 3D space.
 #### Example
-![image](https://user-images.githubusercontent.com/100093856/167210010-cdc0f2ed-e4ce-49ed-b111-8359809f02db.png)
+![image](https://user-images.githubusercontent.com/100093856/167210100-fe72639d-1daf-414f-9177-d43f023c2c15.png)
 
 ## Results
 #### YouTube Video: https://youtu.be/F1ghzpNlMuI
