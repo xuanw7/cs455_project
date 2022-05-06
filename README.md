@@ -11,7 +11,8 @@
 1. Download code off of GitHub or extract files from zipped folder
 2. Open code in a code editor, such as Visual Studio Code. All of the project is in our main.py file.
 3. Press the Run button. A separate window should open up with the visualization showing.
-4. Use the a, w, s, d, q, e keys or up, down, left, right arrow keys to control the camera viewing angle  
+4. Use the a, w, s, d, q, e keys to control the camera position 
+5. Use ↑, ↓, →, ← keys to contrtol the angle of view
 
 ## How to Adjust the 3D Shape
 #### The default shape for our rendering is a cube, but the user is able to adjust the shape they want based on the values in the array cube_vertices (lines 15-16 in our code), that are the normalized positions of the vertices of the shape in the 3D space.
